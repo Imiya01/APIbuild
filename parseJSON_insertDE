@@ -30,7 +30,7 @@ set @url = RequestParameter("url")
  if Empty(@hdurl)
         set @success = false
     else 
-        InsertData('TEST00_DE_PASS','hdurl',@hdurl,'title@',@title,'url',@url,'Date',Now())
+        InsertData("TEST00_DE_PASS","hdurl",@hdurl,"title",@title,"url",@url,"Date",Now())
     endif
 
 ]%%
